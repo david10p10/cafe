@@ -1,0 +1,27 @@
+body {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px;
+  }
+  img {
+    border: 2px solid blue;
+    margin: 10px;
+  }
+  
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 10px;
+}
+
+.producto-card {
+    background-color: rgb(300, 300, 255);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.producto-card img {
+    border-radius: 5px;
+}
